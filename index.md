@@ -1,0 +1,49 @@
+---
+title       : Slidify
+subtitle    : Data meets presentation
+author      : me
+job         : hunting on internet
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [quiz,bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Preparing my app
+To prepare an app 
+
+--- .class #id 
+
+## slide 2
+hey people...
+
+---
+
+## Embedding R code
+
+
+```
+## [1] 55
+```
+
+```
+## [1] 55
+```
+
+--- &radio
+## Question 
+
+Who is Andy Roddick?
+
+1. _Sportsman_
+2. Politician
+3. Higly Recognised Doctor
+4. Chess Player
+
+*** .hint 
+This is a hint
+
+*** .explanation
+This is an explanation
